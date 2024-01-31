@@ -55,11 +55,12 @@
 		00BB5C122B6825C900505763 /* Chains */ = {
 			isa = PBXGroup;
 			children = (
-				00BB5C132B6825C900505763 /* ChainsApp.swift */,
-				00BB5C152B6825C900505763 /* ContentView.swift */,
+				00BB5C2A2B68286E00505763 /* Views */,
+				00BB5C292B68285500505763 /* App */,
+				00BB5C282B68284900505763 /* Habit */,
+				00BB5C272B68283E00505763 /* HabitChain */,
+				00BB5C262B68282500505763 /* Persistence */,
 				00BB5C172B6825CA00505763 /* Assets.xcassets */,
-				00BB5C1C2B6825CA00505763 /* Persistence.swift */,
-				00BB5C1E2B6825CA00505763 /* Chains.xcdatamodeld */,
 				00BB5C192B6825CA00505763 /* Preview Content */,
 			);
 			path = Chains;
@@ -71,6 +72,45 @@
 				00BB5C1A2B6825CA00505763 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00BB5C262B68282500505763 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				00BB5C1E2B6825CA00505763 /* Chains.xcdatamodeld */,
+				00BB5C1C2B6825CA00505763 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		00BB5C272B68283E00505763 /* HabitChain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HabitChain;
+			sourceTree = "<group>";
+		};
+		00BB5C282B68284900505763 /* Habit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Habit;
+			sourceTree = "<group>";
+		};
+		00BB5C292B68285500505763 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				00BB5C152B6825C900505763 /* ContentView.swift */,
+				00BB5C132B6825C900505763 /* ChainsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		00BB5C2A2B68286E00505763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
