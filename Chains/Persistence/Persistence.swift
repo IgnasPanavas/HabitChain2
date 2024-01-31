@@ -50,7 +50,7 @@ struct PersistenceController {
     }
     
     func createSeedData(context: NSManagedObjectContext) {
-        if let habitChain1: HabitChain = addHabitChain(name: "Morning", context: context)
+        let habitChain1: HabitChain = addHabitChain(name: "Morning", context: context)
         
         addHabit(name: "Drink water", desc: "Drink lots of water", time: Date.now, r: 0.33, g: 0.62, b: 0.44, habitChain: habitChain1)
         
