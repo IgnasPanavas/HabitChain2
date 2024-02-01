@@ -6,3 +6,18 @@
 //
 
 import SwiftUI
+
+struct HabitTitleCardView: View {
+        
+    var body: some View {
+        VStack {
+            Text("Hello World")
+        }
+        
+    }
+
+}
+
+#Preview {
+    HabitTitleCardView()
+}
