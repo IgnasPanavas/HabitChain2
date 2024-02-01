@@ -13,6 +13,7 @@
 		00BB5C1B2B6825CA00505763 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BB5C1A2B6825CA00505763 /* Preview Assets.xcassets */; };
 		00BB5C1D2B6825CA00505763 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C1C2B6825CA00505763 /* Persistence.swift */; };
 		00BB5C202B6825CA00505763 /* Chains.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C1E2B6825CA00505763 /* Chains.xcdatamodeld */; };
+		00BB5C342B6C64E500505763 /* HabitTitleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C332B6C64E500505763 /* HabitTitleCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		00BB5C1A2B6825CA00505763 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00BB5C1C2B6825CA00505763 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		00BB5C1F2B6825CA00505763 /* Chains.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chains.xcdatamodel; sourceTree = "<group>"; };
+		00BB5C332B6C64E500505763 /* HabitTitleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTitleCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		00BB5C2A2B68286E00505763 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00BB5C332B6C64E500505763 /* HabitTitleCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				00BB5C1D2B6825CA00505763 /* Persistence.swift in Sources */,
 				00BB5C202B6825CA00505763 /* Chains.xcdatamodeld in Sources */,
 				00BB5C162B6825C900505763 /* ContentView.swift in Sources */,
+				00BB5C342B6C64E500505763 /* HabitTitleCardView.swift in Sources */,
 				00BB5C142B6825C900505763 /* ChainsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
