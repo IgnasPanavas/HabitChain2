@@ -14,6 +14,9 @@
 		00BB5C1D2B6825CA00505763 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C1C2B6825CA00505763 /* Persistence.swift */; };
 		00BB5C202B6825CA00505763 /* Chains.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C1E2B6825CA00505763 /* Chains.xcdatamodeld */; };
 		00BB5C342B6C64E500505763 /* HabitTitleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C332B6C64E500505763 /* HabitTitleCardView.swift */; };
+		00BB5C362B6C6FA100505763 /* HabitChainTitleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C352B6C6FA100505763 /* HabitChainTitleCardView.swift */; };
+		00BB5C382B6C6FAC00505763 /* HabitDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C372B6C6FAC00505763 /* HabitDetailedView.swift */; };
+		00BB5C3A2B6C6FCB00505763 /* HabitChainDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB5C392B6C6FCB00505763 /* HabitChainDetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		00BB5C1C2B6825CA00505763 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		00BB5C1F2B6825CA00505763 /* Chains.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chains.xcdatamodel; sourceTree = "<group>"; };
 		00BB5C332B6C64E500505763 /* HabitTitleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTitleCardView.swift; sourceTree = "<group>"; };
+		00BB5C352B6C6FA100505763 /* HabitChainTitleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitChainTitleCardView.swift; sourceTree = "<group>"; };
+		00BB5C372B6C6FAC00505763 /* HabitDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedView.swift; sourceTree = "<group>"; };
+		00BB5C392B6C6FCB00505763 /* HabitChainDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitChainDetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,6 @@
 			children = (
 				00BB5C2A2B68286E00505763 /* Views */,
 				00BB5C292B68285500505763 /* App */,
-				00BB5C282B68284900505763 /* Habit */,
-				00BB5C272B68283E00505763 /* HabitChain */,
 				00BB5C262B68282500505763 /* Persistence */,
 				00BB5C172B6825CA00505763 /* Assets.xcassets */,
 				00BB5C192B6825CA00505763 /* Preview Content */,
@@ -88,6 +92,8 @@
 		00BB5C272B68283E00505763 /* HabitChain */ = {
 			isa = PBXGroup;
 			children = (
+				00BB5C352B6C6FA100505763 /* HabitChainTitleCardView.swift */,
+				00BB5C392B6C6FCB00505763 /* HabitChainDetailedView.swift */,
 			);
 			path = HabitChain;
 			sourceTree = "<group>";
@@ -95,6 +101,8 @@
 		00BB5C282B68284900505763 /* Habit */ = {
 			isa = PBXGroup;
 			children = (
+				00BB5C332B6C64E500505763 /* HabitTitleCardView.swift */,
+				00BB5C372B6C6FAC00505763 /* HabitDetailedView.swift */,
 			);
 			path = Habit;
 			sourceTree = "<group>";
@@ -111,7 +119,8 @@
 		00BB5C2A2B68286E00505763 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				00BB5C332B6C64E500505763 /* HabitTitleCardView.swift */,
+				00BB5C272B68283E00505763 /* HabitChain */,
+				00BB5C282B68284900505763 /* Habit */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,9 +196,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BB5C1D2B6825CA00505763 /* Persistence.swift in Sources */,
+				00BB5C3A2B6C6FCB00505763 /* HabitChainDetailedView.swift in Sources */,
 				00BB5C202B6825CA00505763 /* Chains.xcdatamodeld in Sources */,
 				00BB5C162B6825C900505763 /* ContentView.swift in Sources */,
 				00BB5C342B6C64E500505763 /* HabitTitleCardView.swift in Sources */,
+				00BB5C382B6C6FAC00505763 /* HabitDetailedView.swift in Sources */,
+				00BB5C362B6C6FA100505763 /* HabitChainTitleCardView.swift in Sources */,
 				00BB5C142B6825C900505763 /* ChainsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
