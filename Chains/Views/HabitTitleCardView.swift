@@ -11,8 +11,9 @@ struct HabitTitleCardView: View {
         
     var body: some View {
         Text("Hello World")
-        Text("Hello World")
-        Image(systemName: "circle")
+        Text("Wrench Adjustable")
+        Image(systemName: "face.smiling")
+        Image(systemName: "wrench.adjustable")
         
     }
 
