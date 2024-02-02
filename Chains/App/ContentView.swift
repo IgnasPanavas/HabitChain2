@@ -11,11 +11,14 @@ import CoreData
 struct ContentView: View {
     var body: some View {
         VStack {
-            
+            HabitTitleCardView(name: "Aiden")
+            HabitTitleCardView(name: "Jeff")
             
         }
         
     }
 }
 
-
+#Preview {
+    ContentView()
+}
